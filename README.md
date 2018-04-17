@@ -4,6 +4,8 @@ Installation instructions and rosinstall configuration for the SMARC software pa
 ## Installation instructions
 
 Follow the instructions here to install the SMARC ros packages.
+The instructions assume that you are running Ubuntu 16.04, and have already
+installed ROS Kinetic by following the instructions at http://wiki.ros.org/kinetic/Installation/Ubuntu .
 
 ### Install binary packages
 
