@@ -38,7 +38,14 @@ cd ..
 catkin_make
 catkin_make install
 ```
-### Running a simple example
+## Running a simple example
+
+When running the files, we first need to source the catkin workspace.
+If you are in the `catkin_ws` folder, do this by:
+```
+source devel/setup.bash
+```
+You might want to add `source /path/to/catkin_ws/devel/setup.bash` to your `~/.bashrc`.
 
 You should now be able to run a simple simulator example.
 First, let's launch a gazebo world using:
