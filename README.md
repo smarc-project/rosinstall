@@ -5,14 +5,14 @@ Installation instructions and rosinstall configuration for the SMARC software pa
 
 Follow the instructions here to install the SMARC ros packages.
 
-## Install binary packages
+### Install binary packages
 
 Just execute the following command to get all the necessary binary packages for the SMARC system:
 ```
 sudo apt-get install python-wstool ros-kinetic-gazebo-msgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros ros-kinetic-gazebo-ros-pkgs ros-kinetic-ros-control ros-kinetic-gazebo-ros-control ros-kinetic-joint-state-controller ros-kinetic-effort-controllers python-pygame protobuf-c-compiler protobuf-compiler ros-kinetic-joy ros-kinetic-joy-teleop ros-kinetic-robot-state-publisher 
 ```
 
-## Setup a catkin workspace
+### Setup a catkin workspace
 
 Start by setting up workspace in a directory of your choosing.
 Note that you can name it something else than `catkin_ws` if you wish:
@@ -38,3 +38,17 @@ cd ..
 catkin_make
 catkin_make install
 ```
+### Running a simple example
+
+You should now be able to run a simple simulator example.
+First, let's launch a gazebo world using:
+```
+roslaunch smarc_bringup auv_scenarios.launch
+```
+Now, let's lanunch an AUV using:
+```
+roslaunch smarc_bringup auv_model.launch
+```
+For more info on these launch files, see https://github.com/smarc-project/smarc_utils/tree/master/smarc_bringup
+
+You should now have a gazebo window and an AUV floating somewhere in the world!
