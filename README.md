@@ -52,10 +52,15 @@ First, let's launch a gazebo world using:
 ```
 roslaunch smarc_bringup auv_scenarios.launch
 ```
-Now, let's lanunch an AUV using:
+Now, let's launch an AUV using:
 ```
 roslaunch smarc_bringup auv_model.launch
 ```
 For more info on these launch files, see https://github.com/smarc-project/smarc_utils/tree/master/smarc_bringup
 
 You should now have a gazebo window and an AUV floating somewhere in the world!
+
+## Updating the software packages
+
+You can use wstool to update the SMARC packages of your workspace
+to the newest version by running `wstool update` inside the `catkin_ws/src` folder.
