@@ -9,7 +9,7 @@ Follow the instructions here to install the SMARC ros packages.
 
 Just execute the following command to get all the necessary binary packages for the SMARC system:
 ```
-sudo apt-get install python-wstool ros-kinetic-gazebo-msgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros ros-kinetic-gazebo-ros-pkgs ros-kinetic-ros-control ros-kinetic-gazebo-ros-control ros-kinetic-joint-state-controller ros-kinetic-effort-controllers python-pygame protobuf-c-compiler protobuf-compiler ros-kinetic-joy ros-kinetic-joy-teleop ros-kinetic-robot-state-publisher 
+sudo apt-get install python-wstool ros-kinetic-gazebo-msgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros ros-kinetic-gazebo-ros-pkgs ros-kinetic-ros-control ros-kinetic-gazebo-ros-control ros-kinetic-joint-state-controller ros-kinetic-effort-controllers python-pygame protobuf-c-compiler protobuf-compiler ros-kinetic-joy ros-kinetic-joy-teleop ros-kinetic-robot-state-publisher ros-kinetic-costmap-2d
 ```
 
 ### Setup a catkin workspace
