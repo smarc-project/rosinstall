@@ -1,0 +1,36 @@
+- git:
+    local-name: smarc_control
+    uri: https://github.com/smarc-project/smarc_control.git
+    version: master
+- git:
+    local-name: smarc_msgs
+    uri: https://github.com/smarc-project/smarc_msgs.git
+    version: master
+- git:
+    local-name: smarc_navigation
+    uri: https://github.com/smarc-project/smarc_navigation.git
+    version: master
+- git:
+    local-name: smarc_planning
+    uri: https://github.com/smarc-project/smarc_planning.git
+    version: master
+- git:
+    local-name: smarc_scenarios
+    uri: https://github.com/smarc-project/smarc_scenarios.git
+    version: master
+- git:
+    local-name: smarc_sensors
+    uri: https://github.com/smarc-project/smarc_sensors.git
+    version: master
+- git:
+    local-name: smarc_simulations
+    uri: https://github.com/smarc-project/smarc_simulations.git
+    version: master
+- git:
+    local-name: smarc_utils
+    uri: https://github.com/smarc-project/smarc_utils.git
+    version: master
+- git:
+    local-name: uuv_simulator
+    uri: https://github.com/smarc-project/uuv_simulator.git
+    version: master
