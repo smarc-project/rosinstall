@@ -47,7 +47,6 @@ Now we should be able to build the packages:
 ```
 cd ..
 catkin_make
-catkin_make install
 ```
 ## Running a simple example
 
@@ -58,12 +57,17 @@ source devel/setup.bash
 ```
 You might want to add `source /path/to/catkin_ws/devel/setup.bash` to your `~/.bashrc`.
 
+If you have not started a roscore, do that in a separate terminal:
+```
+roscore
+```
+
 You should now be able to run a simple simulator example.
-First, let's launch a gazebo world using:
+First, let's launch a gazebo world in a separate terminal using:
 ```
 roslaunch smarc_bringup auv_scenarios.launch
 ```
-Now, let's launch an AUV using:
+Now, let's launch an AUV in a separate terminal using:
 ```
 roslaunch smarc_bringup auv_model.launch
 ```
