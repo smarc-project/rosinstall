@@ -34,3 +34,7 @@
     local-name: uuv_simulator
     uri: https://github.com/smarc-project/uuv_simulator.git
     version: master
+- git:
+    local-name: roslaunch_monitor
+    uri: https://github.com/nilsbore/roslaunch_monitor.git
+    version: rqt
