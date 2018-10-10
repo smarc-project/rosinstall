@@ -38,7 +38,11 @@ the current directory (`src`) it should contain a bunch of folders.
 ### (Optional) Clone additional packages
 
 If you have access to the `smarc_private_auvs` package, you can clone
-that with git in this step. If you have a copy of the package, make
+that with git in this step. Use the command:
+```
+git clone -b tutorial https://gitr.sys.kth.se/smarc-project/smarc_private_auvs.git
+```
+If you have a copy of the package, make
 sure to paste it in the current directory (i.e. `catkin_ws/src`).
 
 ### Building the packages
