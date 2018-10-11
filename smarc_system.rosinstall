@@ -37,4 +37,4 @@
 - git:
     local-name: roslaunch_monitor
     uri: https://github.com/nilsbore/roslaunch_monitor.git
-    version: rqt
+    version: master
