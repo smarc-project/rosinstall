@@ -11,7 +11,7 @@ installed ROS Kinetic by following the instructions at http://wiki.ros.org/kinet
 
 Just execute the following command to get all the necessary binary packages for the SMARC system:
 ```
-sudo apt-get install python-wstool ros-kinetic-gazebo-msgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros ros-kinetic-gazebo-ros-pkgs ros-kinetic-ros-control ros-kinetic-gazebo-ros-control ros-kinetic-joint-state-controller ros-kinetic-effort-controllers python-pygame protobuf-c-compiler protobuf-compiler ros-kinetic-joy ros-kinetic-joy-teleop ros-kinetic-robot-state-publisher ros-kinetic-costmap-2d ros-kinetic-tf2-geometry-msgs ros-kinetic-geodesy tmux python-scipy ros-kinetic-move-base-msgs ros-kinetic-pid ros-kinetic-mongodb-store ros-kinetic-rospy-message-converter ros-kinetic-smach ros-kinetic-robot-localization
+sudo apt-get install python-wstool ros-melodic-gazebo-msgs ros-melodic-gazebo-plugins ros-melodic-gazebo-ros ros-melodic-gazebo-ros-pkgs ros-melodic-ros-control ros-melodic-gazebo-ros-control ros-melodic-joint-state-controller ros-melodic-effort-controllers python-pygame protobuf-c-compiler protobuf-compiler ros-melodic-joy ros-melodic-joy-teleop ros-melodic-robot-state-publisher ros-melodic-costmap-2d ros-melodic-tf2-geometry-msgs ros-melodic-geodesy tmux python-scipy ros-melodic-move-base-msgs ros-melodic-pid ros-melodic-mongodb-store ros-melodic-rospy-message-converter ros-melodic-smach ros-melodic-robot-localization ros-melodic-rqt
 ```
 
 ### Setup a catkin workspace
