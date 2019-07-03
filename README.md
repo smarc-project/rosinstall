@@ -83,3 +83,31 @@ You should now have a gazebo window and an AUV floating somewhere in the world!
 
 You can use wstool to update the SMARC packages of your workspace
 to the newest version by running `wstool update` inside the `catkin_ws/src` folder.
+
+## Installing packages on an AUV
+
+### SAM AUV
+
+Start by installing ROS and some dependencies needed for building and running.
+NOTE: This is an incomplete list of dependencies for building on the vehicle, please fill in!
+```
+sudo apt-get install ros-melodic-rosbridge-suite ros-melodic-tf2-web-republisher
+```
+
+Then follow the instructions [here](https://github.com/smarc-project/uavcan_ros_bridge#dependencies--building)
+to install libuavcan.
+
+You can now proceed do create a catkin workspace anywhere you like.
+Go into the `src` folder of the workspace and execute the following commands.
+
+```
+git clone https://github.com/smarc-project/uavcan_ros_bridge.git
+git clone https://gitr.sys.kth.se/smarc-project/sam_common.git
+git clone https://gitr.sys.kth.se/smarc-project/sam_drivers.git
+git clone https://gitr.sys.kth.se/smarc-project/stim300_ros_driver.git
+git clone https://github.com/nilsbore/flexxros.git
+```
+
+You should now be able to execute `catkin_make` in your workspace to build everything.
+
+Follow the instructions [here](https://gitr.sys.kth.se/smarc-project/stim300_ros_driver#setup) to set up the IMU.
