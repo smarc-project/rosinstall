@@ -106,6 +106,7 @@ git clone https://gitr.sys.kth.se/smarc-project/sam_common.git
 git clone https://gitr.sys.kth.se/smarc-project/sam_drivers.git
 git clone https://gitr.sys.kth.se/smarc-project/stim300_ros_driver.git
 git clone https://github.com/nilsbore/flexxros.git
+git clone https://gitr.sys.kth.se/smarc-project/sam_controllers.git
 ```
 
 You should now be able to execute `catkin_make` in your workspace to build everything.
