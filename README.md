@@ -38,8 +38,9 @@ the current directory (`src`) it should contain a bunch of folders.
 ### (Optional) Clone additional packages
 
 If you have access to the `smarc_private_auvs` package, you can clone
-that with git in this step. Use the command:
+that with git in this step. Use the commands:
 ```
+git clone https://gitr.sys.kth.se/smarc-project/sam_common.git
 git clone https://gitr.sys.kth.se/smarc-project/smarc_private_auvs.git
 ```
 If you have a copy of the package, make
