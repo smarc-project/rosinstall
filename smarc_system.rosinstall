@@ -38,3 +38,7 @@
     local-name: roslaunch_monitor
     uri: https://github.com/nilsbore/roslaunch_monitor.git
     version: master
+- git:
+    local-name: smarc_missions
+    uri: https://github.com/smarc-project/smarc_missions.git
+    version: master
