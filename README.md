@@ -54,9 +54,14 @@ curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sam_robot
 Note that this may take some time. You will also need to enter your account name and password several times
 unless you have added them to your keychain.
 
-## Compile
+## Compile and export
 
 Within the `catkin_ws` folder, execute:
 ```
 catkin_make -DCMAKE_BUILD_TYPE=Release
+```
+When finished, you may want to add the workspace to
+your `~/.bashrc`. Note that you need to modify the path to the workspace:
+```
+echo "source /path/to/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
