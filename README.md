@@ -78,3 +78,24 @@ your `~/.bashrc`. Note that you need to modify the path to the workspace:
 ```
 echo "source /path/to/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
+## Running the simulation
+
+These instructions assume that you have installed flexx and rospkg from the
+instructions above. You may encounter problems if you have installed
+an older version of `robot-webtools` under `Kinetic`. In that case, you
+may need to explicitly install a certain version of tornado, e.g. using `pip3 install tornado==5`.
+
+Run the simulator with the web GUI using:
+```
+rosrun sam_stonefish_sim bringup.sh
+```
+This will open a tmux session with everything needed to run
+the base simulator, including mission planning and execution.
+If you also want to run the attitude controllers, you need to
+go into tab number 3 in the tmux session and press enter to execute those.
+
+Open a web browser and go to the address [`http://localhost:8097/`](http://localhost:8097/).
+
+1. Press the `start` button next to `p2_sam_sim` to run the simulation. You can now move the `Actuator setpoint` sliders of the LCG and VBS actuators in the web gui. You can see the effect of this on the vehicle in the simulatio window
+2. Press the `start` button next to `p4_sam_nav` to run the mission executor. If you want to plan and run a plan using [Neptus](https://lsts.fe.up.pt/toolchain/neptus), follow the instructions [here](https://github.com/smarc-project/imc_ros_bridge#neptus-auv-integration).
+3. If you start the attitude controllers in tab 3 of the tmux section, you can also press `start` next to `p3_sam_att_ctrl`. You can then change the `Controller setpoint` slider to change the pitch and depth directly
