@@ -25,7 +25,7 @@
 - git:
     local-name: flexxros
     uri: https://github.com/nilsbore/flexxros.git
-    version: master
+    version: new_topics
 - git:
     local-name: sam_controllers
     uri: https://gitr.sys.kth.se/smarc-project/sam_controllers.git
