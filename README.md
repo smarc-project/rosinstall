@@ -91,8 +91,8 @@ rosrun sam_stonefish_sim bringup.sh
 ```
 This will open a tmux session with everything needed to run
 the base simulator, including mission planning and execution.
-If you also want to run the attitude controllers, you need to
-go into tab number 3 in the tmux session and press enter to execute those.
+If you also want to run the attitude controllers (only available in private version),
+you need to go into tab number 3 in the tmux session and press enter to execute those.
 
 Open a web browser and go to the address [`http://localhost:8097/`](http://localhost:8097/).
 
