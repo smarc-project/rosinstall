@@ -22,7 +22,9 @@ sudo apt install sudo apt install python3-vcstool libsdl2-dev libglew-dev libfre
 
 The following steps assumes that you have create your [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 and that you have gone to the `catkin_ws/src` folder, where we will place the packages.
-You may execute several of these commands if you want to have all packages in the same place.
+You may execute several of these commands if you want to have all packages in the same place,
+but note that the private SAM sim is a strict superset of the public one,
+so **no need to install both**.
 
 ### Open SAM AUV simulation
 
