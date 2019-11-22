@@ -15,7 +15,12 @@ somewhere and we will refer to the path there as `catkin_ws`.
 ## Dependencies
 
 ```
-sudo apt install sudo apt install tmux python3-vcstool libsdl2-dev libglew-dev libfreetype6-dev ros-${ROS_DISTRO}-py-trees-ros ros-${ROS_DISTRO}-tf2-geometry-msgs ros-${ROS_DISTRO}-pid
+sudo apt install sudo apt install tmux python3-vcstool libsdl2-dev libglew-dev python3-pip libfreetype6-dev ros-${ROS_DISTRO}-rosmon ros-${ROS_DISTRO}-py-trees-ros ros-${ROS_DISTRO}-tf2-geometry-msgs ros-${ROS_DISTRO}-pid
+```
+
+If you want to use the web interface you will also need to install these packages with pip3:
+```
+pip3 install flexx rospkg
 ```
 
 ## Get packages
