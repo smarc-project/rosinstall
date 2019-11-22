@@ -5,8 +5,8 @@ Installation instructions and rosinstall configuration for the SMARC software pa
 
 Follow the instructions here to install the SMARC ros packages.
 The instructions assume that you are running Ubuntu 16.04 and ROS Kinetic,
-or Ubuntu 18.04 and ROS Melodic. You can go to the ROS packages to find
-detailed installation instructions for
+or Ubuntu 18.04 and ROS Melodic, with at least `ros-${ROS_DISTRO}-desktop` packages.
+You can go to the ROS packages to find detailed installation instructions for
 [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 and [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu).
 We will assume that you have set up a [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
