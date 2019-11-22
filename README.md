@@ -15,7 +15,7 @@ somewhere and we will refer to the path there as `catkin_ws`.
 ## Dependencies
 
 ```
-sudo apt install sudo apt install python3-vcstool libsdl2-dev libglew-dev libfreetype6-dev ros-${ROS_DISTRO}-py-trees-ros ros-${ROS_DISTRO}-tf2-geometry-msgs ros-${ROS_DISTRO}-pid
+sudo apt install sudo apt install tmux python3-vcstool libsdl2-dev libglew-dev libfreetype6-dev ros-${ROS_DISTRO}-py-trees-ros ros-${ROS_DISTRO}-tf2-geometry-msgs ros-${ROS_DISTRO}-pid
 ```
 
 ## Get packages
