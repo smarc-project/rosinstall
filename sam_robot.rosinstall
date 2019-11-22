@@ -1,0 +1,40 @@
+- git:
+    local-name: smarc_missions
+    uri: https://github.com/smarc-project/smarc_missions.git
+    version: master
+- git:
+    local-name: sam_common
+    uri: https://github.com/smarc-project/sam_common.git
+    version: master
+- git:
+    local-name: imc_ros_bridge
+    uri: https://github.com/smarc-project/imc_ros_bridge.git
+    version: master
+- git:
+    local-name: sam_controllers
+    uri: https://gitr.sys.kth.se/smarc-project/sam_controllers.git
+    version: master
+- git:
+    local-name: smarc_navigation
+    uri: https://github.com/smarc-project/smarc_navigation.git
+    version: master
+- git:
+    local-name: uavcan_ros_bridge
+    uri: https://github.com/smarc-project/uavcan_ros_bridge.git
+    version: master
+- git:
+    local-name: smarc_utils
+    uri: https://github.com/smarc-project/smarc_utils.git
+    version: master
+- git:
+    local-name: sam_drivers
+    uri: https://gitr.sys.kth.se/smarc-project/sam_drivers.git
+    version: master
+- git:
+    local-name: stim300_ros_driver
+    uri: https://gitr.sys.kth.se/smarc-project/stim300_ros_driver.git
+    version: master
+- git:
+    local-name: deepvision_dvl_driver
+    uri: https://gitr.sys.kth.se/smarc-project/deepvision_dvl_driver.git
+    version: master
