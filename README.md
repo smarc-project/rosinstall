@@ -55,7 +55,7 @@ unless you have added them to your keychain.
 For this step you need to be a member of the SMaRC project and have access to [KTH gitr](https://gitr.sys.kth.se).
 The SAM AUV drivers requires a few extra dependencies:
 ```
-sudo apt install ros-${ROS_DISTRO}-pcl-ros ros-${ROS_DISTRO}-gazebo-msgs
+sudo apt install ros-${ROS_DISTRO}-pcl-ros ros-${ROS_DISTRO}-gazebo-msgs ros-${ROS_DISTRO}-rqt-py-trees
 ```
 You will also need to follow the [instructions here](https://github.com/smarc-project/uavcan_ros_bridge#dependencies--building) to install libuavcan.
 
