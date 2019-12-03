@@ -38,3 +38,7 @@
     local-name: deepvision_dvl_driver
     uri: https://gitr.sys.kth.se/smarc-project/deepvision_dvl_driver.git
     version: master
+- git:
+    local-name: stim300
+    uri: https://github.com/smarc-project/stim300.git
+    version: master
