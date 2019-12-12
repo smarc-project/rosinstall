@@ -25,4 +25,4 @@
 - git:
     local-name: flexxros
     uri: https://github.com/nilsbore/flexxros.git
-    version: new_topics
+    version: master
