@@ -26,3 +26,7 @@
     local-name: flexxros
     uri: https://github.com/smarc-project/flexxros.git
     version: master
+- git:
+    local-name: smarc_navigation
+    uri: https://github.com/smarc-project/smarc_navigation.git
+    version: master
