@@ -34,3 +34,7 @@
     local-name: sbs_ros_driver
     uri: https://github.com/smarc-project/sbg_ros_driver
     version: master
+- git:
+    local-name: smarc_msgs
+    uri: https://github.com/smarc-project/smarc_msgs
+    version: master
