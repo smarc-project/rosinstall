@@ -1,15 +1,15 @@
 smarc_msgs:
-  ubuntu: [ros-melodic-smarc_msgs]
-  debian: [ros-melodic-smarc_msgs]
+  ubuntu: [ros-melodic-smarc-msgs]
+  debian: [ros-melodic-smarc-msgs]
 lolo_msgs:
-  ubuntu: [ros-melodic-lolo_msgs]
-  debian: [ros-melodic-lolo_msgs]
+  ubuntu: [ros-melodic-lolo-msgs]
+  debian: [ros-melodic-lolo-msgs]
 lolo_description:
-  ubuntu: [ros-melodic-lolo_description]
-  debian: [ros-melodic-lolo_description]
+  ubuntu: [ros-melodic-lolo-description]
+  debian: [ros-melodic-lolo-description]
 lolo_drivers:
-  ubuntu: [ros-melodic-lolo_drivers]
-  debian: [ros-melodic-lolo_drivers]
+  ubuntu: [ros-melodic-lolo-drivers]
+  debian: [ros-melodic-lolo-drivers]
 captain_interface:
-  ubuntu: [ros-melodic-captain_interface]
-  debian: [ros-melodic-captain_interface]
+  ubuntu: [ros-melodic-captain-interface]
+  debian: [ros-melodic-captain-interface]
