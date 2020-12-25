@@ -1,0 +1,15 @@
+smarc_msgs:
+  ubuntu: [ros-melodic-smarc_msgs]
+  debian: [ros-melodic-smarc_msgs]
+lolo_msgs:
+  ubuntu: [ros-melodic-lolo_msgs]
+  debian: [ros-melodic-lolo_msgs]
+lolo_description:
+  ubuntu: [ros-melodic-lolo_description]
+  debian: [ros-melodic-lolo_description]
+lolo_drivers:
+  ubuntu: [ros-melodic-lolo_drivers]
+  debian: [ros-melodic-lolo_drivers]
+captain_interface:
+  ubuntu: [ros-melodic-captain_interface]
+  debian: [ros-melodic-captain_interface]
