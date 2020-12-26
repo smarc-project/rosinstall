@@ -1,5 +1,4 @@
-mkdir -p simple_debian_repo
-cd simple_debian_repo
+cd package_repo
 mkdir -p debian
 
 curl -s https://api.github.com/repos/nilsbore/smarc_msgs/releases/latest \
