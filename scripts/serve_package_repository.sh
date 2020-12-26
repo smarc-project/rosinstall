@@ -1,2 +1,2 @@
-cd simple_debian_repo
+cd package_repo
 python -m SimpleHTTPServer 6007
