@@ -8,6 +8,6 @@ curl -s https://api.github.com/repos/nilsbore/smarc_msgs/releases/latest \
 | tr -d \" \
 | wget -qi -
 
-unzip bloom-release-deb.zip -d debian -o
+unzip bloom-release-deb.zip -d debian #-o
 
 dpkg-scanpackages debian /dev/null | gzip -9c > debian/Packages.gz
