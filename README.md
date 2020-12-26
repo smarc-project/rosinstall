@@ -1,6 +1,15 @@
 # rosinstall
 Installation instructions and rosinstall configuration for the SMARC software packages
 
+## Binary install
+
+```
+sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sources.list.d/smarc-latest.list -o /etc/apt/sources.list.d/smarc-latest.list
+sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/rosdep/50-smarc.list -o /etc/ros/rosdep/sources.list.d/50-smarc.list  
+sudo apt update
+rosdep update
+```
+
 ## ROS Install
 
 Follow the instructions here to install the SMARC ros packages.
