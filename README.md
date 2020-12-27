@@ -10,6 +10,23 @@ sudo apt update
 rosdep update
 ```
 
+### Package status
+
+| Repository | Build Status | Release Status |
+| --- | --- | --- |
+| [smarc_msgs](https://github.com/smarc-project/smarc_msgs) | ![CI](https://github.com/smarc-project/smarc_msgs/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/smarc_msgs/workflows/release-deb/badge.svg) |
+| [lolo_common](https://github.com/smarc-project/lolo_common)  | ![CI](https://github.com/smarc-project/lolo_common/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/lolo_common/workflows/release-deb/badge.svg) |
+| [imc_ros_bridge](https://github.com/smarc-project/imc_ros_bridge)  | ![CI](https://github.com/smarc-project/imc_ros_bridge/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/imc_ros_bridge/workflows/release-deb/badge.svg) |
+| [smarc_navigation](https://github.com/smarc-project/smarc_navigation)  | ![CI](https://github.com/smarc-project/smarc_navigation/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/smarc_navigation/workflows/release-deb/badge.svg) |
+| [smarc_missions](https://github.com/smarc-project/smarc_missions)  | ![CI](https://github.com/smarc-project/smarc_missions/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/smarc_missions/workflows/release-deb/badge.svg) |
+| [sam_common](https://github.com/smarc-project/sam_common)  | ![CI](https://github.com/smarc-project/sam_common/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
+| [uavcan_ros_bridge](https://github.com/smarc-project/uavcan_ros_bridge)  | ![CI](https://github.com/smarc-project/uavcan_ros_bridge/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
+| [smarc_utils](https://github.com/smarc-project/smarc_utils)  | ![CI](https://github.com/smarc-project/smarc_utils/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
+| [roswasm_suite](https://github.com/smarc-project/roswasm_suite)  | ![CI](https://github.com/smarc-project/roswasm_suite/workflows/CI/badge.svg?branch=master)  | Not released |
+| [sam_webgui](https://github.com/smarc-project/sam_webgui)  | ![CI](https://github.com/nilsbore/sam_webgui/workflows/CI/badge.svg?branch=master)  | Not released |
+| [stonefish_ros](https://github.com/smarc-project/stonefish_ros)  | ![CI](https://github.com/smarc-project/stonefish_ros/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
+| [sam_stonefish_sim](https://github.com/smarc-project/sam_stonefish_sim)  | Not tested  | Not released |
+
 ## ROS Install
 
 Follow the instructions here to install the SMARC ros packages.
