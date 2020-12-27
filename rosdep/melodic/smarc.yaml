@@ -19,3 +19,12 @@ imc_ros_bridge:
 tf_lat_lon:
   ubuntu: [ros-melodic-tf-lat-lon]
   debian: [ros-melodic-tf-lat-lon]
+smarc_bt:
+  ubuntu: [ros-melodic-smarc-bt]
+  debian: [ros-melodic-smarc-bt]
+bt_mission:
+  ubuntu: [ros-melodic-bt-mission]
+  debian: [ros-melodic-bt-mission]
+smarc_mission_sim:
+  ubuntu: [ros-melodic-smarc-mission-sim]
+  debian: [ros-melodic-smarc-mission-sim]
