@@ -1,7 +1,7 @@
 - nilsbore/geographic_info
 - nilsbore/rosbridge_suite
-- nilsbore/smarc_msgs
-- nilsbore/imc_ros_bridge
-- nilsbore/lolo_common
-- nilsbore/smarc_navigation
-- nilsbore/smarc_missions
+- smarc-project/smarc_msgs
+- smarc-project/imc_ros_bridge
+- smarc-project/lolo_common
+- smarc-project/smarc_navigation
+- smarc-project/smarc_missions
