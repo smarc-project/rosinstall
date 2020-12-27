@@ -13,3 +13,9 @@ lolo_drivers:
 captain_interface:
   ubuntu: [ros-melodic-captain-interface]
   debian: [ros-melodic-captain-interface]
+imc_ros_bridge:
+  ubuntu: [ros-melodic-imc-ros-bridge]
+  debian: [ros-melodic-imc-ros-bridge]
+tf_lat_lon:
+  ubuntu: [ros-melodic-tf-lat-lon]
+  debian: [ros-melodic-tf-lat-lon]
