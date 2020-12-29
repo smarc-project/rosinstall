@@ -46,3 +46,15 @@ sss_viewer:
 message_joiner:
   ubuntu: [ros-melodic-message-joiner]
   debian: [ros-melodic-message-joiner]
+roscpp_json_serialize:
+  ubuntu: [ros-melodic-roscpp-json-serialize]
+  debian: [ros-melodic-roscpp-json-serialize]
+roswasm:
+  ubuntu: [ros-melodic-roswasm]
+  debian: [ros-melodic-roswasm]
+roswasm_webgui:
+  ubuntu: [ros-melodic-roswasm-webgui]
+  debian: [ros-melodic-roswasm-webgui]
+roswasm_tutorials:
+  ubuntu: [ros-melodic-roswasm-tutorials]
+  debian: [ros-melodic-roswasm-tutorials]
