@@ -22,7 +22,7 @@ rosdep update
 | [sam_common](https://github.com/smarc-project/sam_common/blob/noetic-devel/release_packages.yaml)  | ![CI](https://github.com/smarc-project/sam_common/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/sam_common/workflows/release-deb/badge.svg) |
 | [uavcan_ros_bridge](https://github.com/smarc-project/uavcan_ros_bridge)  | ![CI](https://github.com/smarc-project/uavcan_ros_bridge/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
 | [smarc_utils](https://github.com/smarc-project/smarc_utils/blob/noetic-devel/release_packages.yaml)  | ![CI](https://github.com/smarc-project/smarc_utils/workflows/CI/badge.svg?branch=noetic-devel)  |![release](https://github.com/smarc-project/smarc_utils/workflows/release-deb/badge.svg) |
-| [roswasm_suite](https://github.com/smarc-project/roswasm_suite)  | ![CI](https://github.com/smarc-project/roswasm_suite/workflows/CI/badge.svg?branch=master)  | Not released |
+| [roswasm_suite](https://github.com/nilsbore/roswasm_suite/blob/master/release_packages.yaml)  | ![CI](https://github.com/nilsbore/roswasm_suite/workflows/CI/badge.svg?branch=master)  | ![release](https://github.com/nilsbore/roswasm_suite/workflows/release-deb/badge.svg) |
 | [sam_webgui](https://github.com/smarc-project/sam_webgui)  | ![CI](https://github.com/nilsbore/sam_webgui/workflows/CI/badge.svg?branch=master)  | Not released |
 | [stonefish_ros](https://github.com/smarc-project/stonefish_ros)  | ![CI](https://github.com/smarc-project/stonefish_ros/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
 | [sam_stonefish_sim](https://github.com/smarc-project/sam_stonefish_sim)  | Not tested  | Not released |
