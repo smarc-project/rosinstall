@@ -34,3 +34,15 @@ sam_msgs:
 sam_description:
   ubuntu: [ros-melodic-sam-description]
   debian: [ros-melodic-sam-description]
+leak_alarm:
+  ubuntu: [ros-melodic-leak-alarm]
+  debian: [ros-melodic-leak-alarm]
+smarc_keyboard_teleop:
+  ubuntu: [ros-melodic-smarc-keyboard-teleop]
+  debian: [ros-melodic-smarc-keyboard-teleop]
+sss_viewer:
+  ubuntu: [ros-melodic-sss-viewer]
+  debian: [ros-melodic-sss-viewer]
+message_joiner:
+  ubuntu: [ros-melodic-message-joiner]
+  debian: [ros-melodic-message-joiner]
