@@ -58,3 +58,6 @@ roswasm_webgui:
 roswasm_tutorials:
   ubuntu: [ros-melodic-roswasm-tutorials]
   debian: [ros-melodic-roswasm-tutorials]
+sam_webgui:
+  ubuntu: [ros-melodic-sam-webgui]
+  debian: [ros-melodic-sam-webgui]
