@@ -28,3 +28,9 @@ bt_mission:
 smarc_mission_sim:
   ubuntu: [ros-melodic-smarc-mission-sim]
   debian: [ros-melodic-smarc-mission-sim]
+sam_msgs:
+  ubuntu: [ros-melodic-sam-msgs]
+  debian: [ros-melodic-sam-msgs]
+sam_description:
+  ubuntu: [ros-melodic-sam-description]
+  debian: [ros-melodic-sam-description]
