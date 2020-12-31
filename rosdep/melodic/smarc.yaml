@@ -64,3 +64,6 @@ sam_webgui:
 cola2_msgs:
   ubuntu: [ros-melodic-cola2-msgs]
   debian: [ros-melodic-cola2-msgs]
+stonefish_ros:
+  ubuntu: [ros-melodic-stonefish-ros]
+  debian: [ros-melodic-stonefish-ros]
