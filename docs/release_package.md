@@ -26,6 +26,14 @@ The first time you release a package, you also need to add an
 entry to [the rosdep registry](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
 and submit a PR with the change. See the other entries for examples on how it should look.
 
+### Update package version (only needed for updates)
+
+Increment the version in your package's `package.xml` file. It contains three numbers: `X.Y.Z`.
+The following number should be incremented depending on the size of the update:
+* `X` if a major breaking change (very unusual, do with caution)
+* `Ỳ` if the update is major
+* `Z` if it is a bug fix or small improvement
+
 ### Build and add new package or update
 
 Ping @nilsbore, preferrably when submitting the pull request with the new changes.
