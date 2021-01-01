@@ -2,7 +2,7 @@
 
 ## User guide
 
-You can check [the release SMARC package](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+You can check [the released SMARC package](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
 to see if your package has been released. If you want to update one of them or release a new one,
 follow the steps below.
 
