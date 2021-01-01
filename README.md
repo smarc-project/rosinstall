@@ -19,6 +19,10 @@ Running these nodes does not require sourcing any workspace.
 
 ### Package status
 
+You can check [the release SMARC package](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+to see if your package has been released. If you want to update one of them or release a new one,
+check out the [release instructions](https://github.com/smarc-project/rosinstall/blob/master/docs/release_package.md).
+
 | Repository | Build Status | Release Status |
 | --- | --- | --- |
 | [smarc_msgs](https://github.com/smarc-project/smarc_msgs) | ![CI](https://github.com/smarc-project/smarc_msgs/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/smarc_msgs/workflows/release-deb/badge.svg) |
