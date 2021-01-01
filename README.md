@@ -3,12 +3,18 @@ Installation instructions and rosinstall configuration for the SMARC software pa
 
 ## Binary install
 
+We currently support binary packages for ROS melodic on Ubuntu 18.04.
+The following steps [require first installing ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu).
+
 ```
 sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sources.list.d/smarc-latest.list -o /etc/apt/sources.list.d/smarc-latest.list
 sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/rosdep/50-smarc.list -o /etc/ros/rosdep/sources.list.d/50-smarc.list  
 sudo apt update
 rosdep update
 ```
+
+When complete, any of the [released SMARC packages](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+can be installed via `apt`. For example, to install stonefish, type `sudo apt install ros-melodic-sam-stonefish-sim`.
 
 ### Package status
 
