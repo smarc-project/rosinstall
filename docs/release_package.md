@@ -4,7 +4,7 @@
 
 ### Install rules
 
-All executables and libraries need install rules in order to be release.
+All executables and libraries need install rules in order to be released.
 See the bottom of [the catkin cmake docs](http://wiki.ros.org/catkin/CMakeLists.txt) for instructions.
 Or look at [an example](https://github.com/smarc-project/sam_stonefish_sim/blob/noetic-devel/CMakeLists.txt).
 Test locally by configuring your workspace with `catkin config --install`.
@@ -31,7 +31,7 @@ and submit a PR with the change. See the other entries for examples on how it sh
 Increment the version in your package's `package.xml` file. It contains three numbers: `X.Y.Z`.
 The following number should be incremented depending on the size of the update:
 * `X` if a major breaking change (very unusual, do with caution)
-* `Ỳ` if the update is major
+* `Y` if the update is major
 * `Z` if it is a bug fix or small improvement
 
 ### Build and add new package or update
@@ -51,3 +51,14 @@ be attached to the newly created release.
 ### Build the package repo
 
 The package repository hosts the deb files together with the package registry.
+The [`make_package_repository.sh` script](https://github.com/smarc-project/rosinstall/blob/master/scripts/make_package_repository.sh)
+downloads the debs associated with the latest releases in the repos given by
+[this file](https://github.com/smarc-project/rosinstall/blob/master/scripts/package_repo/sources.yaml).
+They are stored in the `debian` folder. Make sure to remove that before re-running this script.
+The script will also run `dpkg-scanpackages` to create a package registry file within this folder.
+The [`serve_package_repository_py.sh` script](https://github.com/smarc-project/rosinstall/blob/master/scripts/serve_package_repository_py3.sh)
+is used to serve the `package_repo` folder as a website than can be added to the local
+apt config via [the steps described here](https://github.com/smarc-project/rosinstall#binary-install).
+
+On the server, there should usually be a tmux server called `webserver` where the `serve_package_repository_py.sh` script is running.
+
