@@ -38,7 +38,7 @@ have a look at the [release instructions](https://github.com/smarc-project/rosin
 | [stonefish_ros](https://github.com/smarc-project/stonefish_ros)  | ![CI](https://github.com/smarc-project/stonefish_ros/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/stonefish_ros/workflows/release-deb/badge.svg) |
 | [sam_stonefish_sim](https://github.com/smarc-project/sam_stonefish_sim)  | Not tested  | ![release](https://github.com/smarc-project/sam_stonefish_sim/workflows/release-deb/badge.svg) |
 
-## ROS Install
+## Manual Install
 
 **NOTE**: It is recommanded to use the [binary install instructions](https://github.com/smarc-project/rosinstall#binary-install)
 for your personal `x86-64` computer. However, if your OS is not supported or if you are installing
@@ -53,7 +53,7 @@ and [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu).
 We will assume that you have set up a [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 somewhere and we will refer to the path there as `catkin_ws`.
 
-## Dependencies
+### Dependencies
 
 Start by installing packages needed for both the simulator and the robot:
 ```
@@ -65,7 +65,7 @@ If you want to use the web interface you will also need to install these package
 pip3 install flexx rospkg
 ```
 
-## Get packages
+### Get packages
 
 The following steps assumes that you have create your [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 and that you have gone to the `catkin_ws/src` folder, where we will place the packages.
@@ -73,7 +73,7 @@ You may execute several of these commands if you want to have all packages in th
 but note that the private SAM sim is a strict superset of the public one,
 so **no need to install both**.
 
-### Open SAM AUV simulation
+#### Open SAM AUV simulation
 
 To get the packages needed for the open SAM simulation, execute:
 ```
@@ -81,7 +81,7 @@ curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sam_sim.r
 ```
 Note that this may take some time, so be patient.
 
-### Private high-def SAM AUV simulation
+#### Private high-def SAM AUV simulation
 
 For this step you need to be a member of the SMaRC project and have access to [KTH gitr](https://gitr.sys.kth.se).
 To get the packages needed for higher-definition SAM simulation, execute:
@@ -91,7 +91,7 @@ curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sam_sim_p
 Note that this may take some time. You will also need to enter your account name and password several times
 unless you have added them to your keychain.
 
-### Private SAM AUV drivers
+#### Private SAM AUV drivers
 
 For this step you need to be a member of the SMaRC project and have access to [KTH gitr](https://gitr.sys.kth.se).
 The SAM AUV drivers requires a few extra dependencies:
@@ -108,7 +108,7 @@ curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sam_robot
 Note that this may take some time. You will also need to enter your account name and password several times
 unless you have added them to your keychain.
 
-## Compile and export
+### Compile and export
 
 Within the `catkin_ws` folder, execute:
 ```
@@ -119,7 +119,7 @@ your `~/.bashrc`. Note that you need to modify the path to the workspace:
 ```
 echo "source /path/to/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
-## Running the simulation
+### Running the simulation
 
 These instructions assume that you have installed flexx and rospkg from the
 instructions above. You may encounter problems if you have installed
