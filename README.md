@@ -40,6 +40,10 @@ have a look at the [release instructions](https://github.com/smarc-project/rosin
 
 ## ROS Install
 
+**NOTE**: It is recommanded to use the [binary install instructions](https://github.com/smarc-project/rosinstall#binary-install)
+for your personal `x86-64` computer. However, if your OS is not supported or if you are installing
+on a robot with an `arm` computer, follow the instructions below.
+
 Follow the instructions here to install the SMARC ros packages.
 The instructions assume that you are running Ubuntu 16.04 and ROS Kinetic,
 or Ubuntu 18.04 and ROS Melodic, with at least `ros-${ROS_DISTRO}-desktop` packages.
