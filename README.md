@@ -3,7 +3,7 @@ Installation instructions and rosinstall configuration for the SMARC software pa
 
 ## Binary install
 
-We currently support binary packages for ROS melodic on Ubuntu 18.04.
+We currently support binary packages for ROS melodic on x86-64 Ubuntu 18.04.
 The following steps [require first installing ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu).
 
 ```
