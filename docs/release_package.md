@@ -2,6 +2,10 @@
 
 ## User guide
 
+You can check [the release SMARC package](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+to see if your package has been released. If you want to update one of them or release a new one,
+follow the steps below.
+
 ### Install rules
 
 All executables and libraries need install rules in order to be released.
@@ -56,8 +60,10 @@ downloads the debs associated with the latest releases in the repos given by
 [this file](https://github.com/smarc-project/rosinstall/blob/master/scripts/package_repo/sources.yaml).
 They are stored in the `debian` folder. Make sure to remove that before re-running this script.
 The script will also run `dpkg-scanpackages` to create a package registry file within this folder.
+Note that you need to re-run `make_package_repository.sh` every time you want to release a new package or update.
+
 The [`serve_package_repository_py.sh` script](https://github.com/smarc-project/rosinstall/blob/master/scripts/serve_package_repository_py3.sh)
-is used to serve the `package_repo` folder as a website than can be added to the local
+is used to then serve the `package_repo` folder as a website than can be added to the local
 apt config via [the steps described here](https://github.com/smarc-project/rosinstall#binary-install).
 
 On the server, there should usually be a tmux server called `webserver` where the `serve_package_repository_py.sh` script is running.
