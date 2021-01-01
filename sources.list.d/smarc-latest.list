@@ -1,1 +1,1 @@
-deb [trusted=yes] http://46.39.107.142:6007 debian/
+deb [trusted=yes] http://130.237.36.25:2907/ debian/
