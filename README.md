@@ -19,6 +19,8 @@ When complete, any of the [released SMARC packages](https://github.com/smarc-pro
 can be installed via `apt`. For example, to install stonefish, type `sudo apt install ros-melodic-sam-stonefish-sim`.
 Running these nodes does not require sourcing any workspace.
 
+If you want to test the install by running a simple simulation, [follow the instructions here](https://github.com/smarc-project/sam_stonefish_sim#running).
+
 ### Package status
 
 You can check [the released SMARC package](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
