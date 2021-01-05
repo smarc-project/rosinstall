@@ -11,6 +11,7 @@ Execute them one-by-one, in order:
 sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sources.list.d/smarc-latest.list -o /etc/apt/sources.list.d/smarc-latest.list
 sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/rosdep/50-smarc.list -o /etc/ros/rosdep/sources.list.d/50-smarc.list  
 sudo apt update
+sudo apt upgrade
 rosdep update
 ```
 
