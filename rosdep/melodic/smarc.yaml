@@ -58,9 +58,21 @@ roswasm_webgui:
 roswasm_tutorials:
   ubuntu: [ros-melodic-roswasm-tutorials]
   debian: [ros-melodic-roswasm-tutorials]
+roswasm_native:
+  ubuntu: [ros-melodic-roswasm-native]
+  debian: [ros-melodic-roswasm-native]
+roswasm_webgui_native:
+  ubuntu: [ros-melodic-roswasm-webgui-native]
+  debian: [ros-melodic-roswasm-webgui-native]
+roswasm_tutorials_native:
+  ubuntu: [ros-melodic-roswasm-tutorials-native]
+  debian: [ros-melodic-roswasm-tutorials-native]
 sam_webgui:
   ubuntu: [ros-melodic-sam-webgui]
   debian: [ros-melodic-sam-webgui]
+sam_webgui_native:
+  ubuntu: [ros-melodic-sam-webgui-native]
+  debian: [ros-melodic-sam-webgui-native]
 cola2_msgs:
   ubuntu: [ros-melodic-cola2-msgs]
   debian: [ros-melodic-cola2-msgs]
