@@ -41,6 +41,8 @@ have a look at the [release instructions](https://github.com/smarc-project/rosin
 | [sam_webgui](https://github.com/smarc-project/sam_webgui)  | ![CI](https://github.com/nilsbore/sam_webgui/workflows/CI/badge.svg?branch=master)  | ![release](https://github.com/smarc-project/sam_webgui/workflows/release-deb/badge.svg) |
 | [stonefish_ros](https://github.com/smarc-project/stonefish_ros)  | ![CI](https://github.com/smarc-project/stonefish_ros/workflows/CI/badge.svg?branch=noetic-devel)  | ![release](https://github.com/smarc-project/stonefish_ros/workflows/release-deb/badge.svg) |
 | [sam_stonefish_sim](https://github.com/smarc-project/sam_stonefish_sim)  | Not tested  | ![release](https://github.com/smarc-project/sam_stonefish_sim/workflows/release-deb/badge.svg) |
+| [roswasm_suite_native](https://github.com/smarc-project-native-gui/roswasm_suite_native/blob/master/release_packages.yaml)  | Not tested | ![release](https://github.com/smarc-project-native-gui/roswasm_suite_native/workflows/release-deb/badge.svg) |
+| [sam_webgui_native](https://github.com/smarc-project-native-gui/sam_webgui_native)  | Not tested  | ![release](https://github.com/smarc-project-native-gui/sam_webgui_native/workflows/release-deb/badge.svg) |
 
 ## Manual Install
 
