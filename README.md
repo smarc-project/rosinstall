@@ -43,6 +43,8 @@ have a look at the [release instructions](https://github.com/smarc-project/rosin
 | [sam_stonefish_sim](https://github.com/smarc-project/sam_stonefish_sim)  | Not tested  | ![release](https://github.com/smarc-project/sam_stonefish_sim/workflows/release-deb/badge.svg) |
 | [roswasm_suite_native](https://github.com/smarc-project-native-gui/roswasm_suite_native/blob/master/release_packages.yaml)  | Not tested | ![release](https://github.com/smarc-project-native-gui/roswasm_suite_native/workflows/release-deb/badge.svg) |
 | [sam_webgui_native](https://github.com/smarc-project-native-gui/sam_webgui_native)  | Not tested  | ![release](https://github.com/smarc-project-native-gui/sam_webgui_native/workflows/release-deb/badge.svg) |
+| [smarc_controllers](https://github.com/smarc-project/smarc_controllers)  | ![CI](https://github.com/smarc-project/smarc_controllers/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
+
 
 ## Manual Install
 
