@@ -51,10 +51,6 @@
     uri: https://github.com/smarc-project/roswasm_suite.git
     version: master
 - git:
-    local-name: rosbridge_suite
-    uri: https://github.com/RobotWebTools/rosbridge_suite.git
-    version: develop
-- git:
     local-name: sam_webgui
     uri: https://github.com/smarc-project/sam_webgui.git
     version: master
