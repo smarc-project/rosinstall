@@ -82,6 +82,9 @@ stonefish_ros:
 sam_stonefish_sim:
   ubuntu: [ros-melodic-sam-stonefish-sim]
   debian: [ros-melodic-sam-stonefish-sim]
+lolo_stonefish_sim:
+  ubuntu: [ros-melodic-lolo-stonefish-sim]
+  debian: [ros-melodic-lolo-stonefish-sim]
 sdl2_image:
   ubuntu: [libsdl2-image-dev]
   debian: [libsdl2-image-dev]
