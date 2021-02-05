@@ -54,4 +54,7 @@
     local-name: sam_webgui
     uri: https://github.com/smarc-project/sam_webgui.git
     version: master
-
+- git:
+    local-name: geographic_info
+    uri: https://github.com/ros-geographic-info/geographic_info.git
+    version: master
