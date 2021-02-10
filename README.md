@@ -3,22 +3,21 @@ Installation instructions and rosinstall configuration for the SMARC software pa
 
 ## Binary install
 
-**WARNING: Right now (as of 2021-02-10) there is maintenance, and the below commands may not work! Please wait about 1 day!**
-
 We currently support binary packages for ROS melodic on x86-64 Ubuntu 18.04.
-The following steps [require first installing ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu).
+The following steps require first installing ROS [melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+or [noetic](http://wiki.ros.org/noetic/Installation/Ubuntu), including sourcing the ROS environment.
 Execute them one-by-one, in order:
 
 ```
-sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sources.list.d/smarc-latest.list -o /etc/apt/sources.list.d/smarc-latest.list
-sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/rosdep/50-smarc.list -o /etc/ros/rosdep/sources.list.d/50-smarc.list  
+sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sources.list.d/smarc-$ROS_DISTRO-latest.list -o /etc/apt/sources.list.d/smarc-latest.list
+sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/rosdep/50-smarc-$ROS_DISTRO.list -o /etc/ros/rosdep/sources.list.d/50-smarc.list  
 sudo apt update
 sudo apt upgrade
 rosdep update
 ```
 
 When complete, any of the [released SMARC packages](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
-can be installed via `apt`. For example, to install the SAM or LOLO stonefish simulators, type `sudo apt install ros-melodic-sam-stonefish-sim` or `sudo apt install ros-melodic-lolo-stonefish-sim`.
+can be installed via `apt`. For example, to install the SAM or LOLO stonefish simulators, type `sudo apt install ros-$ROS_DISTRO-sam-stonefish-sim` or `sudo apt install ros-$ROS_DISTRO-lolo-stonefish-sim`.
 Running these nodes does not require sourcing any workspace.
 
 If you want to test the install by running a simple simulation, foloow the [SAM instructions here](https://github.com/smarc-project/sam_stonefish_sim#running)
