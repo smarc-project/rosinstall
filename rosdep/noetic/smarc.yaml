@@ -1,0 +1,90 @@
+smarc_msgs:
+  ubuntu: [ros-noetic-smarc-msgs]
+  debian: [ros-noetic-smarc-msgs]
+lolo_msgs:
+  ubuntu: [ros-noetic-lolo-msgs]
+  debian: [ros-noetic-lolo-msgs]
+lolo_description:
+  ubuntu: [ros-noetic-lolo-description]
+  debian: [ros-noetic-lolo-description]
+lolo_drivers:
+  ubuntu: [ros-noetic-lolo-drivers]
+  debian: [ros-noetic-lolo-drivers]
+captain_interface:
+  ubuntu: [ros-noetic-captain-interface]
+  debian: [ros-noetic-captain-interface]
+imc_ros_bridge:
+  ubuntu: [ros-noetic-imc-ros-bridge]
+  debian: [ros-noetic-imc-ros-bridge]
+tf_lat_lon:
+  ubuntu: [ros-noetic-tf-lat-lon]
+  debian: [ros-noetic-tf-lat-lon]
+smarc_bt:
+  ubuntu: [ros-noetic-smarc-bt]
+  debian: [ros-noetic-smarc-bt]
+bt_mission:
+  ubuntu: [ros-noetic-bt-mission]
+  debian: [ros-noetic-bt-mission]
+smarc_mission_sim:
+  ubuntu: [ros-noetic-smarc-mission-sim]
+  debian: [ros-noetic-smarc-mission-sim]
+sam_msgs:
+  ubuntu: [ros-noetic-sam-msgs]
+  debian: [ros-noetic-sam-msgs]
+sam_description:
+  ubuntu: [ros-noetic-sam-description]
+  debian: [ros-noetic-sam-description]
+leak_alarm:
+  ubuntu: [ros-noetic-leak-alarm]
+  debian: [ros-noetic-leak-alarm]
+smarc_keyboard_teleop:
+  ubuntu: [ros-noetic-smarc-keyboard-teleop]
+  debian: [ros-noetic-smarc-keyboard-teleop]
+sss_viewer:
+  ubuntu: [ros-noetic-sss-viewer]
+  debian: [ros-noetic-sss-viewer]
+message_joiner:
+  ubuntu: [ros-noetic-message-joiner]
+  debian: [ros-noetic-message-joiner]
+roscpp_json_serialize:
+  ubuntu: [ros-noetic-roscpp-json-serialize]
+  debian: [ros-noetic-roscpp-json-serialize]
+roswasm:
+  ubuntu: [ros-noetic-roswasm]
+  debian: [ros-noetic-roswasm]
+roswasm_webgui:
+  ubuntu: [ros-noetic-roswasm-webgui]
+  debian: [ros-noetic-roswasm-webgui]
+roswasm_tutorials:
+  ubuntu: [ros-noetic-roswasm-tutorials]
+  debian: [ros-noetic-roswasm-tutorials]
+roswasm_native:
+  ubuntu: [ros-noetic-roswasm-native]
+  debian: [ros-noetic-roswasm-native]
+roswasm_webgui_native:
+  ubuntu: [ros-noetic-roswasm-webgui-native]
+  debian: [ros-noetic-roswasm-webgui-native]
+roswasm_tutorials_native:
+  ubuntu: [ros-noetic-roswasm-tutorials-native]
+  debian: [ros-noetic-roswasm-tutorials-native]
+sam_webgui:
+  ubuntu: [ros-noetic-sam-webgui]
+  debian: [ros-noetic-sam-webgui]
+sam_webgui_native:
+  ubuntu: [ros-noetic-sam-webgui-native]
+  debian: [ros-noetic-sam-webgui-native]
+cola2_msgs:
+  ubuntu: [ros-noetic-cola2-msgs]
+  debian: [ros-noetic-cola2-msgs]
+stonefish_ros:
+  ubuntu: [ros-noetic-stonefish-ros]
+  debian: [ros-noetic-stonefish-ros]
+sam_stonefish_sim:
+  ubuntu: [ros-noetic-sam-stonefish-sim]
+  debian: [ros-noetic-sam-stonefish-sim]
+lolo_stonefish_sim:
+  ubuntu: [ros-noetic-lolo-stonefish-sim]
+  debian: [ros-noetic-lolo-stonefish-sim]
+sdl2_image:
+  ubuntu: [libsdl2-image-dev]
+  debian: [libsdl2-image-dev]
