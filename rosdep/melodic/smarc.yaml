@@ -91,6 +91,12 @@ sam_stonefish_sim:
 lolo_stonefish_sim:
   ubuntu: [ros-melodic-lolo-stonefish-sim]
   debian: [ros-melodic-lolo-stonefish-sim]
+smarc_base:
+  ubuntu: [ros-melodic-smarc-base]
+  debian: [ros-melodic-smarc-base]
+smarc_desktop:
+  ubuntu: [ros-melodic-smarc-desktop]
+  debian: [ros-melodic-smarc-desktop]
 sdl2_image:
   ubuntu: [libsdl2-image-dev]
   debian: [libsdl2-image-dev]
