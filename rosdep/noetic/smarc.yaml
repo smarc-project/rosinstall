@@ -91,6 +91,12 @@ sam_stonefish_sim:
 lolo_stonefish_sim:
   ubuntu: [ros-noetic-lolo-stonefish-sim]
   debian: [ros-noetic-lolo-stonefish-sim]
+smarc_base:
+  ubuntu: [ros-noetic-smarc-base]
+  debian: [ros-noetic-smarc-base]
+smarc_desktop:
+  ubuntu: [ros-noetic-smarc-desktop]
+  debian: [ros-noetic-smarc-desktop]
 sdl2_image:
   ubuntu: [libsdl2-image-dev]
   debian: [libsdl2-image-dev]
