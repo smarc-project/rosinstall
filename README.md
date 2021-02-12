@@ -49,6 +49,8 @@ have a look at the [release instructions](https://github.com/smarc-project/rosin
 | [sam_webgui_native](https://github.com/smarc-project-native-gui/sam_webgui_native)  | Not tested  | ![release](https://github.com/smarc-project-native-gui/sam_webgui_native/workflows/release-deb/badge.svg) |
 | [lolo_webgui_native](https://github.com/smarc-project-native-gui/lolo_webgui_native)  | Not tested  | ![release](https://github.com/smarc-project-native-gui/lolo_webgui_native/workflows/release-deb/badge.svg) |
 | [smarc_controllers](https://github.com/smarc-project/smarc_controllers)  | ![CI](https://github.com/smarc-project/smarc_controllers/workflows/CI/badge.svg?branch=noetic-devel)  | Not released |
+| [smarc_base](https://github.com/smarc-project/smarc_base)  | ![CI](https://github.com/smarc-project/smarc_base/workflows/CI/badge.svg?branch=noetic-devel)  |![release](https://github.com/smarc-project/smarc_base/workflows/release-deb/badge.svg) |
+| [smarc_desktop](https://github.com/smarc-project/smarc_desktop)  | ![CI](https://github.com/smarc-project/smarc_desktop/workflows/CI/badge.svg?branch=noetic-devel)  |![release](https://github.com/smarc-project/smarc_desktop/workflows/release-deb/badge.svg) |
 
 
 ## Manual Install
