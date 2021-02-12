@@ -73,6 +73,12 @@ sam_webgui:
 sam_webgui_native:
   ubuntu: [ros-noetic-sam-webgui-native]
   debian: [ros-noetic-sam-webgui-native]
+lolo_webgui:
+  ubuntu: [ros-noetic-lolo-webgui]
+  debian: [ros-noetic-lolo-webgui]
+lolo_webgui_native:
+  ubuntu: [ros-noetic-lolo-webgui-native]
+  debian: [ros-noetic-lolo-webgui-native]
 cola2_msgs:
   ubuntu: [ros-noetic-cola2-msgs]
   debian: [ros-noetic-cola2-msgs]
