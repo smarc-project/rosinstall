@@ -73,6 +73,12 @@ sam_webgui:
 sam_webgui_native:
   ubuntu: [ros-melodic-sam-webgui-native]
   debian: [ros-melodic-sam-webgui-native]
+lolo_webgui:
+  ubuntu: [ros-melodic-lolo-webgui]
+  debian: [ros-melodic-lolo-webgui]
+lolo_webgui_native:
+  ubuntu: [ros-melodic-lolo-webgui-native]
+  debian: [ros-melodic-lolo-webgui-native]
 cola2_msgs:
   ubuntu: [ros-melodic-cola2-msgs]
   debian: [ros-melodic-cola2-msgs]
