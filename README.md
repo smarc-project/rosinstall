@@ -5,7 +5,8 @@ Installation instructions and rosinstall configuration for the SMARC software pa
 
 We currently support binary packages for ROS melodic on x86-64 Ubuntu 18.04.
 The following steps require first installing ROS [melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
-or [noetic](http://wiki.ros.org/noetic/Installation/Ubuntu), including sourcing the ROS environment.
+or [noetic](http://wiki.ros.org/noetic/Installation/Ubuntu), including sourcing the ROS environment
+([melodic](http://wiki.ros.org/melodic/Installation/Ubuntu#melodic.2FInstallation.2FDebEnvironment.Environment_setup), [noetic](http://wiki.ros.org/noetic/Installation/Ubuntu#noetic.2FInstallation.2FDebEnvironment.Environment_setup)) and setting up rosdep ([melodic](http://wiki.ros.org/melodic/Installation/Ubuntu#Installation.2FUbuntu.2FBinariesBuildDependencies.Dependencies_for_building_packages), [noetic](http://wiki.ros.org/noetic/Installation/Ubuntu#Dependencies_for_building_packages)).
 Execute them one-by-one, in order:
 
 ```
