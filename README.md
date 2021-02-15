@@ -20,8 +20,9 @@ rosdep update
 When complete, any of the [released SMARC packages](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
 can be installed via `apt`. For example, to install the SAM or LOLO stonefish simulators, type `sudo apt install ros-$ROS_DISTRO-sam-stonefish-sim` or `sudo apt install ros-$ROS_DISTRO-lolo-stonefish-sim`.
 Running these nodes does not require sourcing any workspace.
+If you want to install **all** SMARC packages released for the desktop install, use `sudo apt install ros-$ROS_DISTRO-smarc-desktop`.
 
-If you want to test the install by running a simple simulation, foloow the [SAM instructions here](https://github.com/smarc-project/sam_stonefish_sim#running)
+If you want to test the install by running a simple simulation, follow the [SAM instructions here](https://github.com/smarc-project/sam_stonefish_sim#running)
 or the [LOLO instructions here](https://github.com/smarc-project/lolo_stonefish_sim#running).
 
 ### Package status
