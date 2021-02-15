@@ -58,3 +58,7 @@
     local-name: geographic_info
     uri: https://github.com/ros-geographic-info/geographic_info.git
     version: master
+- git:
+    local-name: ros_jetson_stats
+    uri: https://github.com/rbonghi/ros_jetson_stats.git
+    version: master
