@@ -85,6 +85,9 @@ cola2_msgs:
 stonefish_ros:
   ubuntu: [ros-noetic-stonefish-ros]
   debian: [ros-noetic-stonefish-ros]
+smarc_stonefish_worlds:
+  ubuntu: [ros-noetic-smarc-stonefish-worlds]
+  debian: [ros-noetic-smarc-stonefish-worlds]
 sam_stonefish_sim:
   ubuntu: [ros-noetic-sam-stonefish-sim]
   debian: [ros-noetic-sam-stonefish-sim]
