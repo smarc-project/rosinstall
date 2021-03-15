@@ -12,8 +12,7 @@
 - smarc-project/lolo_webgui
 - nilsbore/cola2_msgs_mirror
 - smarc-project/stonefish_ros
-- smarc-project/sam_stonefish_sim
-- smarc-project/lolo_stonefish_sim
+- smarc-project/smarc_stonefish_sims
 - smarc-project-native-gui/roswasm_suite_native
 - smarc-project-native-gui/sam_webgui_native
 - smarc-project-native-gui/lolo_webgui_native
