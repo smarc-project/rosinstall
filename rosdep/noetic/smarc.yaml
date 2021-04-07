@@ -100,6 +100,9 @@ sam_stonefish_sim:
 lolo_stonefish_sim:
   ubuntu: [ros-noetic-lolo-stonefish-sim]
   debian: [ros-noetic-lolo-stonefish-sim]
+sam_basic_controllers:
+  ubuntu: [ros-noetic-sam-basic-controllers]
+  debian: [ros-noetic-sam-basic-controllers]
 smarc_base:
   ubuntu: [ros-noetic-smarc-base]
   debian: [ros-noetic-smarc-base]
