@@ -19,6 +19,9 @@ imc_ros_bridge:
 tf_lat_lon:
   ubuntu: [ros-melodic-tf-lat-lon]
   debian: [ros-melodic-tf-lat-lon]
+tf_convenience_topics:
+  ubuntu: [ros-melodic-tf-convenience-topics]
+  debian: [ros-melodic-tf-convenience-topics]
 smarc_bt:
   ubuntu: [ros-melodic-smarc-bt]
   debian: [ros-melodic-smarc-bt]
