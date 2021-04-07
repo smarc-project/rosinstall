@@ -22,6 +22,9 @@ tf_lat_lon:
 tf_convenience_topics:
   ubuntu: [ros-melodic-tf-convenience-topics]
   debian: [ros-melodic-tf-convenience-topics]
+sam_action_servers:
+  ubuntu: [ros-melodic-sam-action-servers]
+  debian: [ros-melodic-sam-action-servers]
 smarc_bt:
   ubuntu: [ros-melodic-smarc-bt]
   debian: [ros-melodic-smarc-bt]
