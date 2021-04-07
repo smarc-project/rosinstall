@@ -16,5 +16,6 @@
 - smarc-project-native-gui/roswasm_suite_native
 - smarc-project-native-gui/sam_webgui_native
 - smarc-project-native-gui/lolo_webgui_native
+- smarc-project/smarc_controllers
 - smarc-project/smarc_base
 - smarc-project/smarc_desktop
