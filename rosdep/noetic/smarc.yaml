@@ -22,6 +22,9 @@ tf_lat_lon:
 tf_convenience_topics:
   ubuntu: [ros-noetic-tf-convenience-topics]
   debian: [ros-noetic-tf-convenience-topics]
+sam_action_servers:
+  ubuntu: [ros-noetic-sam-action-servers]
+  debian: [ros-noetic-sam-action-servers]
 smarc_bt:
   ubuntu: [ros-noetic-smarc-bt]
   debian: [ros-noetic-smarc-bt]
