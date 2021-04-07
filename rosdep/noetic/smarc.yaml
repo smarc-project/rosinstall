@@ -19,6 +19,9 @@ imc_ros_bridge:
 tf_lat_lon:
   ubuntu: [ros-noetic-tf-lat-lon]
   debian: [ros-noetic-tf-lat-lon]
+tf_convenience_topics:
+  ubuntu: [ros-noetic-tf-convenience-topics]
+  debian: [ros-noetic-tf-convenience-topics]
 smarc_bt:
   ubuntu: [ros-noetic-smarc-bt]
   debian: [ros-noetic-smarc-bt]
