@@ -103,6 +103,9 @@ lolo_stonefish_sim:
 sam_basic_controllers:
   ubuntu: [ros-melodic-sam-basic-controllers]
   debian: [ros-melodic-sam-basic-controllers]
+sam_dead_reckoning:
+  ubuntu: [ros-melodic-sam-dead-reckoning]
+  debian: [ros-melodic-sam-dead-reckoning]
 smarc_base:
   ubuntu: [ros-melodic-smarc-base]
   debian: [ros-melodic-smarc-base]
