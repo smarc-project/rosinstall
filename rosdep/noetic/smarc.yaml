@@ -100,6 +100,9 @@ sam_stonefish_sim:
 lolo_stonefish_sim:
   ubuntu: [ros-noetic-lolo-stonefish-sim]
   debian: [ros-noetic-lolo-stonefish-sim]
+sam_dead_reckoning:
+  ubuntu: [ros-noetic-sam-dead-reckoning]
+  debian: [ros-noetic-sam-dead-reckoning]
 sam_basic_controllers:
   ubuntu: [ros-noetic-sam-basic-controllers]
   debian: [ros-noetic-sam-basic-controllers]
