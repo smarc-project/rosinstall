@@ -26,8 +26,9 @@ Here, `lolo_drivers` depends on `lolo_msgs`, and therefore appears later in the 
 
 #### Rosdep file
 
-The first time you release a package, you also need to add an
-entry to [the rosdep registry](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+The first time you release a package, you also need to add
+entries to the rosdep registries for [melodic](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+and [noetic](https://github.com/smarc-project/rosinstall/blob/master/rosdep/noetic/smarc.yaml)
 and submit a PR with the change. See the other entries for examples on how it should look.
 
 ### Update package version (only needed for updates)
