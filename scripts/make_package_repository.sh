@@ -1,4 +1,4 @@
-cd package_repo2
+cd package_repo
     
 for distro in melodic noetic; do
     mkdir -p ${distro}
