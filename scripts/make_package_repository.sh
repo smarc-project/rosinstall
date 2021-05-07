@@ -1,8 +1,10 @@
 cd package_repo
     
-for distro in melodic noetic; do
+for distro in debian noetic; do
     mkdir -p ${distro}
 done
+
+mv debian melodic # for backwards compatibility
 
 while read line; do
     pkg=$(echo $line | cut -c3-)
