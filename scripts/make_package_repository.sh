@@ -16,7 +16,7 @@ while read line; do
         | tr -d \" \
         | wget -qi -
 
-        unzip bloom-${distro}-release-deb.zip -d ${distro}/ #--out
+        unzip -o bloom-${distro}-release-deb.zip -d ${distro}/ #--out
         rm bloom-${distro}-release-deb.zip
     done
 done < sources.yaml
