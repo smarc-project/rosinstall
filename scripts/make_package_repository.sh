@@ -19,7 +19,7 @@ while read line; do
         unzip -o bloom-${distro}-release-deb.zip -d ${distro}/ #--out
         rm bloom-${distro}-release-deb.zip
     done
-done < sources.yaml
+done < $1
 
 mv melodic debian # for backwards compatibility
 
