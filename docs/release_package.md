@@ -61,7 +61,7 @@ downloads the debs associated with the latest releases in the repos given by
 [this file](https://github.com/smarc-project/rosinstall/blob/master/scripts/package_repo/sources.yaml).
 They are stored in the `debian` folder. Make sure to remove that before re-running this script.
 The script will also run `dpkg-scanpackages` to create a package registry file within this folder.
-Note that you need to re-run `make_package_repository.sh` every time you want to release a new package or update.
+Note that you need to re-run `make_package_repository.sh sources.yaml` every time you want to release a new package or update.
 
 The [`serve_package_repository_py.sh` script](https://github.com/smarc-project/rosinstall/blob/master/scripts/serve_package_repository_py3.sh)
 is used to then serve the `package_repo` folder as a website than can be added to the local
