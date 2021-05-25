@@ -11,9 +11,9 @@
     uri: https://github.com/smarc-project/imc_ros_bridge.git
     version: noetic-devel
 - git:
-    local-name: sam_controllers
-    uri: https://gitr.sys.kth.se/smarc-project/sam_controllers.git
-    version: master
+    local-name: smarc_controllers
+    uri: https://github.com/smarc-project/smarc_controllers.git
+    version: noetic-devel
 - git:
     local-name: smarc_navigation
     uri: https://github.com/smarc-project/smarc_navigation.git
