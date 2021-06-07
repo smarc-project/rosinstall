@@ -31,6 +31,10 @@
     uri: https://github.com/smarc-project/smarc_utils.git
     version: master
 - git:
+    local-name: uavcan_ros_bridge
+    uri: https://github.com/smarc-project/uavcan_ros_bridge.git
+    version: noetic-devel
+- git:
     local-name: uuv_simulator
     uri: https://github.com/smarc-project/uuv_simulator.git
     version: master
