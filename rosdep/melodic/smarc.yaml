@@ -115,3 +115,6 @@ smarc_desktop:
 sdl2_image:
   ubuntu: [libsdl2-image-dev]
   debian: [libsdl2-image-dev]
+uavcan_ros_bridge:
+  ubuntu: [ros-melodic-smarc-uavcan_ros_bridge]
+  debian: [ros-melodic-smarc-uavcan_ros_bridge]
