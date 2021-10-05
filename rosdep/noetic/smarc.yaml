@@ -115,3 +115,6 @@ smarc_desktop:
 sdl2_image:
   ubuntu: [libsdl2-image-dev]
   debian: [libsdl2-image-dev]
+uavcan_ros_msgs:
+  ubuntu: [ros-noetic-uavcan-ros-msgs]
+  debian: [ros-noetic-uavcan-ros-msgs]
