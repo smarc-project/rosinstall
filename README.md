@@ -22,6 +22,10 @@ can be installed via `apt`. For example, to install the SAM or LOLO stonefish si
 Running these nodes does not require sourcing any workspace.
 If you want to install **all** SMARC packages released for the desktop install, use `sudo apt install ros-$ROS_DISTRO-smarc-desktop`.
 
+To run the simulation with the GUI, run `rosrun <vehicle>_stonefish_sim bringup.sh` where `<vehicle>` is either `sam` or `lolo`.
+To kill everything started by the bringup script, `tmux kill-session` can be used in any terminal.
+To install and run custom or non-apt packages, install catkin: `apt install python3-catkin-tools`, configure it to install packages into the install directories: `catkin config --install` (where you have the custom packages in `catkin_ws/src`) and then build and install things in your catkin workspace with `catkin build <package name>` where `<package name>` could be omitted to build everything. These custom installed packages will override the apt-installed ones when you run the bringups. 
+
 If you want to test the install by running a simple simulation, follow the [SAM instructions here](https://github.com/smarc-project/smarc_stonefish_sims/tree/noetic-devel/sam_stonefish_sim#running)
 or the [LOLO instructions here](https://github.com/smarc-project/smarc_stonefish_sims/tree/noetic-devel/lolo_stonefish_sim#running).
 
