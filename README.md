@@ -10,14 +10,14 @@ or [noetic](http://wiki.ros.org/noetic/Installation/Ubuntu), including sourcing 
 Execute them one-by-one, in order:
 
 ```
-sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/sources.list.d/smarc-$ROS_DISTRO-latest.list -o /etc/apt/sources.list.d/smarc-latest.list
-sudo curl https://raw.githubusercontent.com/smarc-project/rosinstall/master/rosdep/50-smarc-$ROS_DISTRO.list -o /etc/ros/rosdep/sources.list.d/50-smarc.list  
+sudo curl https://raw.githubusercontent.com/smarc-project/smarc_releases/noetic-devel/sources.list.d/smarc-$ROS_DISTRO-latest.list -o /etc/apt/sources.list.d/smarc-latest.list
+sudo curl https://raw.githubusercontent.com/smarc-project/smarc_releases/noetic-devel/rosdep/50-smarc-$ROS_DISTRO.list -o /etc/ros/rosdep/sources.list.d/50-smarc.list  
 sudo apt update
 sudo apt upgrade
 rosdep update
 ```
 
-When complete, any of the [released SMARC packages](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+When complete, any of the [released SMARC packages](https://github.com/smarc-project/smarc_releases/blob/noetic-devel/rosdep/melodic/smarc.yaml)
 can be installed via `apt`. For example, to install the SAM or LOLO stonefish simulators, type `sudo apt install ros-$ROS_DISTRO-sam-stonefish-sim` or `sudo apt install ros-$ROS_DISTRO-lolo-stonefish-sim`.
 Running these nodes does not require sourcing any workspace.
 If you want to install **all** SMARC packages released for the desktop install, use `sudo apt install ros-$ROS_DISTRO-smarc-desktop`.
@@ -31,7 +31,7 @@ or the [LOLO instructions here](https://github.com/smarc-project/smarc_stonefish
 
 ### Package status
 
-You can check [the released SMARC package](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
+You can check [the released SMARC package](https://github.com/smarc-project/smarc_releases/blob/noetic-devel/rosdep/melodic/smarc.yaml)
 to see if your package has been released.
 
 If you want to update one of them or release a new package, have a look at the [release repo](https://github.com/smarc-project/smarc_releases).
