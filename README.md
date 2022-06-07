@@ -32,8 +32,9 @@ or the [LOLO instructions here](https://github.com/smarc-project/smarc_stonefish
 ### Package status
 
 You can check [the released SMARC package](https://github.com/smarc-project/rosinstall/blob/master/rosdep/melodic/smarc.yaml)
-to see if your package has been released. If you want to update one of them or release a new package,
-have a look at the [release instructions](https://github.com/smarc-project/rosinstall/blob/master/docs/release_package.md).
+to see if your package has been released.
+
+If you want to update one of them or release a new package, have a look at the [release repo](https://github.com/smarc-project/smarc_releases).
 
 | Repository | Build Status | Release Status |
 | --- | --- | --- |
